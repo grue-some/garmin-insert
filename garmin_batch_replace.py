@@ -5,6 +5,9 @@ from fitparse import FitFile
 from garminconnect import Garmin
 
 # ==================== CONFIGURATION ====================
+# working as of 2026-08-28 
+# APIs and Garmin Connect formats might change, and documentation might be lagging
+#
 GARMIN_EMAIL = "address@email.com"
 GARMIN_PASSWORD = "password"
 MODIFIED_FILES_DIR = "../some/directory/path"  # Folder containing new modified files
