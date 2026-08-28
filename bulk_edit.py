@@ -40,7 +40,7 @@ def rebuild_fit_with_edge1050(input_path, output_path):
     data_size, = struct.unpack('<I', raw_bytes[4:8])
     crc_end_point = header_size + data_size
 
-    # Use fitparse to read the original Wahoo identifiers out of this specific file
+    # Use fitparse to read the original device identifiers out of this specific file
     fit_file = FitFile(str(input_path))
     
     for message in fit_file.get_messages('file_id'):
