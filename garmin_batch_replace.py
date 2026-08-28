@@ -10,7 +10,7 @@ from garminconnect import Garmin
 #
 GARMIN_EMAIL = "address@email.com"
 GARMIN_PASSWORD = "password"
-MODIFIED_FILES_DIR = "../some/directory/path"  # Folder containing new modified files
+MODIFIED_FILES_DIR = "../some/directory/path"  # Folder containing the modified files to be uploaded
 
 # Set DRY_RUN to True to test and find matches without deleting or uploading anything.
 # Set to False only when you are ready to execute the changes.
