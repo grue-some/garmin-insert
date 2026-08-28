@@ -15,7 +15,13 @@ In principle, fit-file-faker should do the same job, but despite Gemini's and my
 for my Wahoo app files.
 
 I kept the program in three different scripts, because things can go wrong (e.g. due to interface changes) at every step, and it's better
-to keep intermediate results, like the original activity files, on disk in case something goes horribly wrong.
+to keep intermediate results, like the original activity files, on disk, in case something goes horribly wrong.
+
+# Notes:
+- For day-to-day 'massaging' of single newly created .fit files it is probably a lot more convenient to use the device changer in fitfiletools.com
+at https://www.fitfiletools.com/changer
+- The reprocessing inside Garmin Connect for individual FIT files only seems to extend about 10 months into the past; the computation of global Training Status quantities seems to extend even less far, a few weeks only.
+
 
 # Install:
 - copy the three python scripts into a directory
