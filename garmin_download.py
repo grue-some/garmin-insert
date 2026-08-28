@@ -32,7 +32,7 @@ def main():
         for idx, activity in enumerate(activities, 1):
             activity_id = activity["activityId"]
 
-            # Pull the actual custom name from your dashboard (e.g., "Los_Alamitos_Cycling")
+            # Pull the actual custom name from your dashboard (e.g., "Los_Angeles_Cycling")
             display_name = activity.get(
                 "activityName", f"Activity_{activity_id}"
             )
@@ -73,7 +73,7 @@ def main():
             f"\nSuccess! All true binary files are now downloaded to: {DOWNLOAD_FOLDER}"
         )
         print(
-            "You can now run your working training load script (bulk_fit_editor.py) over this folder!"
+            "You can now run your working training load script (bulk_edit.py) over this folder!"
         )
 
     except Exception as e:
