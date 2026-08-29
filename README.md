@@ -37,5 +37,8 @@ at https://www.fitfiletools.com/changer
 - <img width="484" height="540" alt="image" src="https://github.com/user-attachments/assets/2ed8eecd-b678-4087-8c19-20c1839c8bbd" />
 - Performance Stats - Training Status - 4 weeks:
 - <img width="1652" height="982" alt="image" src="https://github.com/user-attachments/assets/7cd9a632-b49c-4a3e-a5a3-1694be3558a5" />
+- 4 week aerobic and anaerobic training effect:
+- <img width="1658" height="880" alt="image" src="https://github.com/user-attachments/assets/9e83ea79-a3e9-4eaa-81a2-ea66f78e648e" />
+
 
 
